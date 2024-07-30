@@ -126,7 +126,7 @@ def set_moa_agent(
     del layer_agent_config
 
 st.set_page_config(
-    page_title="Mixture-Of-Agents Powered by Groq",
+    page_title="Karios Agents Powered by Groq",
     page_icon='static/favicon.ico',
         menu_items={
         'About': "## Groq Mixture-Of-Agents \n Powered by [Groq](https://groq.com)"
@@ -233,9 +233,9 @@ with st.sidebar:
     """)
 
 # Main app layout
-st.header("Mixture of Agents", anchor=False)
-st.write("A demo of the Mixture of Agents architecture proposed by Together AI, Powered by Groq LLMs.")
-st.image("./static/moa_groq.svg", caption="Mixture of Agents Workflow", width=1000)
+st.header("Karios Agents", anchor=False)
+st.write("A this project oversees implementation of Mixture of Agents architecture Powered by Groq LLMs.")
+# st.image("./static/moa_groq.svg", caption="Mixture of Agents Workflow", width=1000)
 
 # Display current configuration
 with st.expander("Current MOA Configuration", expanded=False):

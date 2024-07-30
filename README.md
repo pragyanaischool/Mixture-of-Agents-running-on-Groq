@@ -1,9 +1,9 @@
-# Mixture-of-Agents Demo Powered by Groq
+# Mixture-of-Agents using Groq
 
 This Streamlit application showcases the Mixture of Agents (MOA) architecture proposed by Together AI, powered by Groq LLMs. It allows users to interact with a configurable multi-agent system for enhanced AI-driven conversations.
 
-![MOA Architecture](./static/moa_groq.svg)
-*Source: Adaptation of [Together AI Blog - Mixture of Agents](https://www.together.ai/blog/together-moa)*
+<!-- ![MOA Architecture](./static/moa_groq.svg) -->
+<!-- *Source: Adaptation of [Together AI Blog - Mixture of Agents](https://www.together.ai/blog/together-moa)* -->
 
 ## Features
 
@@ -17,8 +17,8 @@ This Streamlit application showcases the Mixture of Agents (MOA) architecture pr
 
 1. Clone the repository:
    ```
-   git clone https://github.com/skapadia3214/groq-moa.git
-   cd groq-moa
+   git clone https://https://github.com/kram254/Mixture-of-Agents-running-on-Groq.git
+   cd Mixture-of-Agents-running-on-Groq
    ```
 
 2. Install the required dependencies:
@@ -77,33 +77,11 @@ Contributions to this project are welcome! Please follow these steps to contribu
 4. Push your changes to your fork
 5. Submit a pull request to the main repository
 
-Please ensure that your code adheres to the project's coding standards and includes appropriate tests and documentation.
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
 - [Groq](https://groq.com/) for providing the underlying language models
 - [Together AI](https://www.together.ai/) for proposing the Mixture of Agents architecture and providing the conceptual image
 - [Streamlit](https://streamlit.io/) for the web application framework
-
-## Citation
-
-This project implements the Mixture-of-Agents architecture proposed in the following paper:
-
-```
-@article{wang2024mixture,
-  title={Mixture-of-Agents Enhances Large Language Model Capabilities},
-  author={Wang, Junlin and Wang, Jue and Athiwaratkun, Ben and Zhang, Ce and Zou, James},
-  journal={arXiv preprint arXiv:2406.04692},
-  year={2024}
-}
-```
-
-For more information about the Mixture-of-Agents concept, please refer to the [original research paper](https://arxiv.org/abs/2406.04692) and the [Together AI blog post](https://www.together.ai/blog/together-moa).
-
-## Contact
-
-For questions or support, please open an issue on the GitHub repository or contact skapadia@groq.com directly.
