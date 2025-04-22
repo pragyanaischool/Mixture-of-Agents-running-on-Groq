@@ -141,7 +141,7 @@ valid_model_names = [
     'mistral-saba-24b',
 ]
 
-st.markdown("<a href='https://groq.com'><img src='app/static/banner.png' width='500'></a>", unsafe_allow_html=True)
+st.markdown("<a href='https://groq.com'><img src='app/static/PragyanAI_Transperent.png' width='500'></a>", unsafe_allow_html=True)
 st.write("---")
 
 
