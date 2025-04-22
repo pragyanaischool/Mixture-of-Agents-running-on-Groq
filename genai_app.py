@@ -233,9 +233,9 @@ with st.sidebar:
     """)
 
 # Main app layout
-st.header("Karios Agents", anchor=False)
+st.header("PragyanAI Agents", anchor=False)
+st.image("prag")
 st.write("A this project oversees implementation of Mixture of Agents architecture Powered by Groq LLMs.")
-# st.image("./static/moa_groq.svg", caption="Mixture of Agents Workflow", width=1000)
 
 # Display current configuration
 with st.expander("Current MOA Configuration", expanded=False):
