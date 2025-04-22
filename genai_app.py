@@ -232,7 +232,6 @@ with st.sidebar:
 
 # Main app layout
 st.header("PragyanAI Agents", anchor=False)
-st.image("PragyanAI_Transperent_github.png")
 st.write("A this project oversees implementation of Mixture of Agents architecture Powered by Groq LLMs.")
 
 # Display current configuration
