@@ -126,7 +126,7 @@ def set_moa_agent(
     del layer_agent_config
 
 st.set_page_config(
-    page_title="Karios Agents Powered by Groq",
+    page_title="PragyanAI Agents Powered by Groq",
     page_icon='static/favicon.ico',
         menu_items={
         'About': "## Groq Mixture-Of-Agents \n Powered by [Groq](https://groq.com)"
