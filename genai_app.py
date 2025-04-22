@@ -20,7 +20,7 @@ layer_agent_config_def = {
     },
     "layer_agent_2": {
         "system_prompt": "Respond with a thought and then your response to the question. {helper_response}",
-        "model_name": "gemma-7b-it",
+        "model_name": "gemma2-9b-it",
         "temperature": 0.7
     },
     "layer_agent_3": {
@@ -56,7 +56,7 @@ layer_agent_config_rec = {
     },
     "layer_agent_4": {
         "system_prompt": "You are an expert planner agent. Create a plan for how to answer the human's query. {helper_response}",
-        "model_name": "mixtral-8x7b-32768",
+        "model_name": "mistral-saba-24b",
         "temperature": 0.5
     },
 }
@@ -136,9 +136,9 @@ st.set_page_config(
 valid_model_names = [
     'llama3-70b-8192',
     'llama3-8b-8192',
-    'gemma-7b-it',
+    'meta-llama/llama-4-maverick-17b-128e-instruct',
     'gemma2-9b-it',
-    'mixtral-8x7b-32768'
+    'mistral-saba-24b',
 ]
 
 st.markdown("<a href='https://groq.com'><img src='app/static/banner.png' width='500'></a>", unsafe_allow_html=True)
@@ -227,9 +227,7 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("""
     ### Credits
-    - MOA: [Together AI](https://www.together.ai/blog/together-moa)
     - LLMs: [Groq](https://groq.com/)
-    - Paper: [arXiv:2406.04692](https://arxiv.org/abs/2406.04692)
     """)
 
 # Main app layout
